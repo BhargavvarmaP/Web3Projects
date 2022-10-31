@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Decentralized Content Creation</title>
+</head>
+<style>
+    body {
+        background-color: rgba(120, 107, 230, 0.418);
+    }
+    .container {
+        background-color: rgba(194, 191, 191, 0.521);
+        text-decoration: none;
+        backdrop-filter: saturate(180%) blur(10px);
+        height:250px;
+        width:40%;
+    }
+    
+</style>
+<body>
+    <header class="title">Decentralized Content Creation</header>
+    <section class="container">
+        <form class="form">
+            <input type="text" id="name" placeholder="Enter Filename">
+            <input id="file" type="file"><br>
+            <button type="submit" id="submit">Upload</button>
+        </form>
+    </section>
+    <section class="result"></section>
+</body>
+<script src="../src/DCC.js"></script>
+</html>

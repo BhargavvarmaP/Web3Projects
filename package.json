@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/BhargavvarmaP/Web3Projects/issues"
   },
-  "homepage": "https://github.com/BhargavvarmaP/Web3Projects#readme"
+  "homepage": "https://github.com/BhargavvarmaP/Web3Projects#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "fs": "^0.0.1-security",
+    "ipfs": "^0.65.0",
+    "ipfs-core": "^0.17.0"
+  }
 }
