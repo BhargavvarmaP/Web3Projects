@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Decentralized Content Creation</title>
 </head>
+<script src="https://cdn.jsdelivr.net/npm/ipfs/dist/index.min.js"></script>
 <style>
     body {
         background-color: rgba(120, 107, 230, 0.418);
@@ -39,9 +40,8 @@
         <form class="form">
             <input type="text" id="name" placeholder="Enter Filename">
             <input id="file" type="file"><br>
-            <button type="submit" id="submit">Upload</button>
+            <p id="ipfslink"></p>
         </form>
-        <p id="ipfslink"></p>
     </section>
     <section class="result"></section>
 </body>

@@ -1,0 +1,17 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.nav-menu ul{
+    display: flex;
+    flex-direction:row;
+}
+.nav-menu ul li{
+    color:white;
+    font-weight: 300;
+    font-size: 20px;
+  display:inline-block;
+  margin-left: 170px;
+  font-family: monospace;
+}
+
